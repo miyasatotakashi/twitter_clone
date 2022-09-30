@@ -1,4 +1,3 @@
 Rails.application.routes.draw do
-  get 'ch2209s/index'
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  get '/ch2209s', to: 'ch2209#index'
 end
